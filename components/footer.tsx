@@ -135,8 +135,8 @@ export function Footer() {
           transition={{ duration: 0.7, delay: 0.1, ease: [.7, 0, .24, 1.5] }}
           viewport={{ once: true }}
         >
-          <Link href={'#'} className="hover:underline">
-            wjdingo.com
+          <Link href={'https://dingolawncarensw.com'} className="hover:underline">
+            dingolawncarensw.com
           </Link>
         </motion.div>
       </div>

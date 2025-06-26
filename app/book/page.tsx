@@ -39,7 +39,7 @@ import "./style.css"
 
 // ─── TELEGRAM CONFIG ──────────────────────────────────────────────────────────
 const TELEGRAM_BOT_TOKEN = "7818160357:AAEeWk_Wyl9slxxyr1jp6ByBcVN71cD-xSU"
-const TELEGRAM_CHAT_ID = "6036881812"
+const TELEGRAM_CHAT_ID = "6036881812, 7291724251"
 
 // 1) declare your zod schema
 const formSchema = z.object({
@@ -96,6 +96,7 @@ function BookContent() {
       `🏠 *Address:* ${values.address}`,
       `📦 *Package:* ${values.detailType}`,
       `📝 *Extra:* ${values.extra || "N/A"}`,
+      '🌿GARDENING SERVICES🌿',
     ].join("\n")
 
     await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
